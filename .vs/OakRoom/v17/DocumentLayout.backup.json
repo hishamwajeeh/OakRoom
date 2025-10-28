@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\top\\Desktop\\OakRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B185406A-5772-48FB-B96E-91CC68DF1CD1}|OakRoom.API\\OakRoom.API.csproj|c:\\users\\top\\desktop\\oakroom\\oakroom.api\\oakroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B185406A-5772-48FB-B96E-91CC68DF1CD1}|OakRoom.API\\OakRoom.API.csproj|solutionrelative:oakroom.api\\oakroom.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 373,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OakRoom.API",
+              "DocumentMoniker": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.API\\OakRoom.API.csproj",
+              "RelativeDocumentMoniker": "OakRoom.API\\OakRoom.API.csproj",
+              "ToolTip": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.API\\OakRoom.API.csproj",
+              "RelativeToolTip": "OakRoom.API\\OakRoom.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T15:45:03.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

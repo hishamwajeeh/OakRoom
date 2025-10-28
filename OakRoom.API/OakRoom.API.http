@@ -1,0 +1,6 @@
+@OakRoom.API_HostAddress = http://localhost:5120
+
+GET {{OakRoom.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
