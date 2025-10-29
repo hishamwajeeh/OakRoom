@@ -1,0 +1,12 @@
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.deps.json
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.pdb
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.AssemblyInfoInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.AssemblyInfo.cs
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.csproj.CoreCompileInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.sourcelink.json
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\refint\OakRoom.Core.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.pdb
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\ref\OakRoom.Core.dll
