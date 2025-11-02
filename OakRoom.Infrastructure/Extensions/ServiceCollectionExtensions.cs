@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using OakRoom.Core.Repositories;
+using OakRoom.Infrastructure.Repositories;
 using OakRoom.Infrastructure.Sedders;
 
 namespace OakRoom.Infrastructure.Extensions
@@ -9,6 +11,7 @@ namespace OakRoom.Infrastructure.Extensions
         {
             // Infrastructure service registrations go here
             services.AddScoped<IRestaurantSedder, RestaurantSedder>();
+            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
             return services;
         }
     }

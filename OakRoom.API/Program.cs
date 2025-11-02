@@ -2,6 +2,7 @@
 using OakRoom.Infrastructure.Persistence;
 using OakRoom.Infrastructure.Extensions;
 using OakRoom.Infrastructure.Sedders;
+using OakRoom.Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<OakRoomDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddInfrastructure();
+builder.Services.AddApplication();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
