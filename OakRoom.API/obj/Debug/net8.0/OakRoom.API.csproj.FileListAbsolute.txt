@@ -1,0 +1,8 @@
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.csproj.AssemblyReference.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.AssemblyInfoInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.AssemblyInfo.cs
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.csproj.CoreCompileInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.sourcelink.json

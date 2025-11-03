@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\top\\Desktop\\OakRoom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75467091-768D-4704-9D5D-F99DC649B7AD}|OakRoom.Application\\OakRoom.Application.csproj|c:\\users\\top\\desktop\\oakroom\\oakroom.application\\restaurants\\query\\getrestaurantbyid\\getrestaurantbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75467091-768D-4704-9D5D-F99DC649B7AD}|OakRoom.Application\\OakRoom.Application.csproj|solutionrelative:oakroom.application\\restaurants\\query\\getrestaurantbyid\\getrestaurantbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 373,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetRestaurantByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.Application\\Restaurants\\Query\\GetRestaurantById\\GetRestaurantByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "OakRoom.Application\\Restaurants\\Query\\GetRestaurantById\\GetRestaurantByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.Application\\Restaurants\\Query\\GetRestaurantById\\GetRestaurantByIdQueryHandler.cs",
+              "RelativeToolTip": "OakRoom.Application\\Restaurants\\Query\\GetRestaurantById\\GetRestaurantByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:51:23.808Z",
+              "EditorCaption": ""
             }
           ]
         }

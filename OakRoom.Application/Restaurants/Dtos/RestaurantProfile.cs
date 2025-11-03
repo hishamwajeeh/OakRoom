@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OakRoom.Application.Restaurants.Command.CreateRestaurant;
 using OakRoom.Core.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,15 @@ namespace OakRoom.Application.Restaurants.Dtos
     {
         public RestaurantProfile()
         {
+            CreateMap<CreateRestaurantCommand, Restaurant>()
+                .ForMember(d => d.Address, opt =>
+                    opt.MapFrom(src => new Address
+                    {
+                        City = src.City,
+                        PostalCode = src.PostalCode,
+                        Street = src.Street
+                    }));
+
             CreateMap<Restaurant, RestaurantDto>()
             .ForMember(d => d.City, opt =>
                 opt.MapFrom(src => src.Address == null ? null : src.Address.City))

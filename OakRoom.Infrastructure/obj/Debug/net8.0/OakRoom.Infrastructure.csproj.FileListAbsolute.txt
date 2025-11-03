@@ -1,0 +1,6 @@
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.AssemblyInfo.cs
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\top\Desktop\OakRoom\OakRoom.Infrastructure\obj\Debug\net8.0\OakRoom.Infrastructure.sourcelink.json
