@@ -1,6 +1,16 @@
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\bin\Debug\net8.0\OakRoom.Application.deps.json
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\bin\Debug\net8.0\OakRoom.Application.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\bin\Debug\net8.0\OakRoom.Application.pdb
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\bin\Debug\net8.0\OakRoom.Core.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\bin\Debug\net8.0\OakRoom.Core.pdb
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.csproj.AssemblyReference.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.AssemblyInfoInputs.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.AssemblyInfo.cs
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.csproj.CoreCompileInputs.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.sourcelink.json
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom..859CA158.Up2Date
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\refint\OakRoom.Application.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\OakRoom.Application.pdb
+C:\Users\top\Desktop\OakRoom\OakRoom.Application\obj\Debug\net8.0\ref\OakRoom.Application.dll

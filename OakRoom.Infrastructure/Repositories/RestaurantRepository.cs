@@ -12,14 +12,17 @@ namespace OakRoom.Infrastructure.Repositories
 {
     public class RestaurantRepository(OakRoomDbContext roomDbContext) : IRestaurantRepository
     {
-        public Task<int> Create(Restaurant entity)
+        public async Task<int> Create(Restaurant entity)
         {
-            throw new NotImplementedException();
+            roomDbContext.Restaurants.Add(entity);
+            await roomDbContext.SaveChangesAsync();
+            return entity.Id;
         }
 
         public Task Delete(Restaurant entity)
         {
-            throw new NotImplementedException();
+            roomDbContext.Restaurants.Remove(entity);
+            return roomDbContext.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Restaurant>> GetAllAsync()
@@ -37,8 +40,6 @@ namespace OakRoom.Infrastructure.Repositories
         }
 
         public Task SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
+            => roomDbContext.SaveChangesAsync();
     }
 }
