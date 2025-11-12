@@ -15,7 +15,7 @@ namespace OakRoom.Application.Restaurants.Command.UpdateRestaurant
     {
         public async Task<bool> Handle(UpdateRestaurantCommand request, CancellationToken cancellationToken)
         {
-            logger.LogInformation("Update Restaurant for RestaurantId: {RestaurantId}", request.Id);
+            logger.LogInformation("Update Restaurant for RestaurantId: {RestaurantId} with {@UpdateREstaurant}", request.Id, request);
             var restaurant = await restaurantRepository.GetByIdAsync(request.Id);
             if (restaurant == null)
                 return false;

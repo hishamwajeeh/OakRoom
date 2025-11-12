@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OakRoom.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1452646a12942c57fac88473a4dd6b2d384935db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cb51c36afacb3c3c1eac4b27f9f8a986cea6735")]
 [assembly: System.Reflection.AssemblyProductAttribute("OakRoom.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OakRoom.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
