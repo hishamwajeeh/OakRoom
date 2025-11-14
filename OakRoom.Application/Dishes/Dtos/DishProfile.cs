@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OakRoom.Application.Dishes.Commands.CreateDish;
 using OakRoom.Core.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace OakRoom.Application.Dishes.Dtos
         public DishProfile()
         {
             CreateMap<Dish, DishDto>();
-
+            CreateMap<CreateDishCommand, Dish>();
         }
     }
 }

@@ -45,6 +45,15 @@ C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

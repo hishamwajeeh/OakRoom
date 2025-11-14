@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\top\\Desktop\\OakRoom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B185406A-5772-48FB-B96E-91CC68DF1CD1}|OakRoom.API\\OakRoom.API.csproj|c:\\users\\top\\desktop\\oakroom\\oakroom.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B185406A-5772-48FB-B96E-91CC68DF1CD1}|OakRoom.API\\OakRoom.API.csproj|solutionrelative:oakroom.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 373,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.API\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "OakRoom.API\\Controllers\\DishesController.cs",
+              "ToolTip": "C:\\Users\\top\\Desktop\\OakRoom\\OakRoom.API\\Controllers\\DishesController.cs*",
+              "RelativeToolTip": "OakRoom.API\\Controllers\\DishesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:26:49.821Z",
+              "EditorCaption": ""
             }
           ]
         }

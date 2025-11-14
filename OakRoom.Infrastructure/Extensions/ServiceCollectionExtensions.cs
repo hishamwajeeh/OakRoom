@@ -23,6 +23,7 @@ namespace OakRoom.Infrastructure.Extensions
             
             services.AddScoped<IRestaurantSedder, RestaurantSedder>();
             services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+            services.AddScoped<IDishesRepository, DishesRepository>();
 
             return services;
         }
