@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OakRoom.Application.Dishes.GetDishByIdForRestaurant
+namespace OakRoom.Application.Dishes.Queries.GetDishByIdForRestaurant
 {
     public class GetDishByIdForRestaurantQuery(int restaurantId, int dishId) : IRequest<DishDto>
     {

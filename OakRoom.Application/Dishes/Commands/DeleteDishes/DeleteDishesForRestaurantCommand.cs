@@ -1,14 +1,13 @@
 ﻿using MediatR;
-using OakRoom.Application.Dishes.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OakRoom.Application.Dishes.GetDishesForRestaurant
+namespace OakRoom.Application.Dishes.Commands.DeleteDishes
 {
-    public class GetDishesForRestaurantQuery(int restaurantId) : IRequest<IEnumerable<DishDto>>
+    public class DeleteDishesForRestaurantCommand(int restaurantId) : IRequest
     {
         public int RestaurantId { get; } = restaurantId;
     }

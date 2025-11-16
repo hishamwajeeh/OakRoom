@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OakRoom.Application.Dishes.Commands.CreateDish;
+using OakRoom.Application.Dishes.Commands.DeleteDishes;
 using OakRoom.Application.Dishes.Dtos;
-using OakRoom.Application.Dishes.GetDishByIdForRestaurant;
-using OakRoom.Application.Dishes.GetDishesForRestaurant;
+using OakRoom.Application.Dishes.Queries.GetDishByIdForRestaurant;
+using OakRoom.Application.Dishes.Queries.GetDishesForRestaurant;
 
 namespace OakRoom.API.Controllers
 {
@@ -32,6 +32,13 @@ namespace OakRoom.API.Controllers
         {
             var dish = await mediator.Send(new GetDishByIdForRestaurantQuery(restaurantId, dishId));
             return Ok(dish);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteDishesFromRestaurant([FromRoute] int restaurantId)
+        {
+            await mediator.Send(new DeleteDishesForRestaurantCommand(restaurantId));
+            return NoContent();
         }
     }
 }

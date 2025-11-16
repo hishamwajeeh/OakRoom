@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OakRoom.Application.Dishes.GetDishesForRestaurant
+namespace OakRoom.Application.Dishes.Queries.GetDishesForRestaurant
 {
     public class GetDishesForRestaurantQueryHandler(ILogger<GetDishesForRestaurantQueryHandler> logger,
     IRestaurantRepository restaurantsRepository,
