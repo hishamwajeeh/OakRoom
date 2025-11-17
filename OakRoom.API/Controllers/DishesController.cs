@@ -16,8 +16,9 @@ namespace OakRoom.API.Controllers
         public async Task<IActionResult> CreateDish([FromRoute] int restaurantId, CreateDishCommand command)
         {
             command.RestaurantId = restaurantId;
-            await mediator.Send(command);
-            return Created();
+
+            var dishId = await mediator.Send(command);
+            return CreatedAtAction(nameof(GetDishById), new { restaurantId, dishId }, null);
         }
 
         [HttpGet]
