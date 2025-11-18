@@ -1,6 +1,7 @@
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.deps.json
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\bin\Debug\net8.0\OakRoom.Core.pdb
+C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.csproj.AssemblyReference.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.AssemblyInfoInputs.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.Core\obj\Debug\net8.0\OakRoom.Core.AssemblyInfo.cs

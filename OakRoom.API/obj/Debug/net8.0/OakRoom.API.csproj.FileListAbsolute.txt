@@ -15,6 +15,8 @@ C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\FluentValidation.Depen
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Humanizer.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.ApplicationInsights.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -51,6 +53,7 @@ C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Extensions.Hos
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.ApplicationInsights.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
@@ -159,10 +162,10 @@ C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.build.
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom..D5D161DB.Up2Date
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\refint\OakRoom.API.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.pdb
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\OakRoom.API.genruntimeconfig.cache
 C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\ref\OakRoom.API.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

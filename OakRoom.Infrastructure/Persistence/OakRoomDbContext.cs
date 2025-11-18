@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using OakRoom.Core.Entities;
 
 namespace OakRoom.Infrastructure.Persistence
 {
-    public class OakRoomDbContext : DbContext
+    public class OakRoomDbContext : IdentityDbContext<User>
     {
         public OakRoomDbContext(DbContextOptions<OakRoomDbContext> options) : base(options)
         {
