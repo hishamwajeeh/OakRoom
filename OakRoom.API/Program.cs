@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using OakRoom.API.Extensions;
 using OakRoom.API.Middlewares;
 using OakRoom.Application.Extensions;
 using OakRoom.Core.Entities;
@@ -10,9 +11,6 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
-builder.Services.AddControllers();
-
 // Single correct DbContext registration
 builder.Services.AddDbContext<OakRoomDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
@@ -22,43 +20,11 @@ builder.Services.AddDbContext<OakRoomDbContext>(options =>
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<OakRoomDbContext>();
 
-// Middlewares
-builder.Services.AddScoped<ErrorHandlingMiddleware>();
-builder.Services.AddScoped<RequestTimeLoggingMiddleware>();
 
 // Custom layers
+builder.AddPresentation();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
-
-// Serilog
-builder.Host.UseSerilog((context, configuration) =>
-    configuration.ReadFrom.Configuration(context.Configuration));
-
-// Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen( c =>
-{
-    c.AddSecurityDefinition("bearerAuth", new OpenApiSecurityScheme
-    {
-        Type = SecuritySchemeType.Http,
-        Scheme = "Bearer"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "bearerAuth"
-                }
-            },
-            new string[] {}
-        }
-    });
-});
 
 var app = builder.Build();
 
