@@ -167,7 +167,7 @@
     "/api/identity/register": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -198,7 +198,7 @@
     "/api/identity/login": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "parameters": [
           {
@@ -242,7 +242,7 @@
     "/api/identity/refresh": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -270,7 +270,7 @@
     "/api/identity/confirmEmail": {
       "get": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "operationId": "MapIdentityApi-api/identity/confirmEmail",
         "parameters": [
@@ -306,7 +306,7 @@
     "/api/identity/resendConfirmationEmail": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -327,7 +327,7 @@
     "/api/identity/forgotPassword": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -358,7 +358,7 @@
     "/api/identity/resetPassword": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -389,7 +389,7 @@
     "/api/identity/manage/2fa": {
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -430,7 +430,7 @@
     "/api/identity/manage/info": {
       "get": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "responses": {
           "200": {
@@ -460,7 +460,7 @@
       },
       "post": {
         "tags": [
-          "OakRoom.API"
+          "Identity"
         ],
         "requestBody": {
           "content": {
@@ -494,6 +494,37 @@
           },
           "404": {
             "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/api/identity/user": {
+      "patch": {
+        "tags": [
+          "Identity"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDetailsCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDetailsCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDetailsCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -1158,6 +1189,21 @@
           },
           "hasDelivery": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserDetailsCommand": {
+        "type": "object",
+        "properties": {
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "nationality": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

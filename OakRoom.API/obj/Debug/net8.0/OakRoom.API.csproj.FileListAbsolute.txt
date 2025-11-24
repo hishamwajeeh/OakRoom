@@ -34,6 +34,7 @@ C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.D
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\top\Desktop\OakRoom\OakRoom.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll

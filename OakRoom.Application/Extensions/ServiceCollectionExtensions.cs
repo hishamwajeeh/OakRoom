@@ -1,6 +1,6 @@
-﻿using AutoMapper;
-using FluentValidation;
+﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
+using Restaurants.Application.Users;
 
 namespace OakRoom.Application.Extensions
 {
@@ -13,6 +13,10 @@ namespace OakRoom.Application.Extensions
             services.AddAutoMapper(typeof(ServiceCollectionExtensions).Assembly);
 
             services.AddValidatorsFromAssembly(typeof(ServiceCollectionExtensions).Assembly);
+
+            services.AddScoped<IUserContext, UserContext>();
+
+            services.AddHttpContextAccessor();
 
             return services;
         }
